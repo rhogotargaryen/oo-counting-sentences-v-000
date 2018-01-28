@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    punct_array = self.scan(/[\.\!\?]/)
+    punct_array = self.scan(/\b[\.\!\?]/)
     punct_array.length
   end
 end
