@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    binding.pry
     punct_array = self.select("!"||"?"||".")
     punct_array.length
   end
