@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    self.scan(/.+\./)
+    self.include(/.+\./)
   end
 
   def question?
