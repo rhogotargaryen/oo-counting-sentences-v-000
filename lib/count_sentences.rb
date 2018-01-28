@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    self.scan(/.+\./) == true
+    self.scan(/.+\./) === true
   end
 
   def question?
