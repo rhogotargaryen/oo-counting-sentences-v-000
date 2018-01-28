@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    punct_array = self.detect("!"||"?"||".")
+    punct_array = self.select("!"||"?"||".")
     punct_array.length
   end
 end
